@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StudentAllUniversities</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <style>
+    footer {
+    background-color:#222222;
+    }
+    #contact{
+    background-color:black;
+    }
+    #all{
+         background-color:black;
+    }
+      h4 {
+          color:white;
+      } 
+          h3 {
+          color:white;
+      }
+            #en{
+          font-size:large;
+          color:white;
+      }
+              h6 {
+          color:white;
+      }
+    </style>
+</head>
+<body style="margin:0; background:url(Images/red.jpg);background-attachment:fixed;background-size:100%; background-repeat:no-repeat" data-spy="scroll" data-target=".navbar" data-offset="60" id="mybody">
+    <nav class=" navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">DataWareHouse<span class="glyphicon glyphicon-registration-mark"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="Home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="#contact">Universities</a></li>
+                    <li><a href="#about">Teachers</a></li>
+                    <li><a href="#about">ContactUs</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Home.html"><span class="glyphicon glyphicon-log-out"></span> Sign-Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br /><br />
+    
+    <div class="jumbotron" id="signIn" style="background-color:black">
+
+        <h2 class="text-center"><b>WELCOME TO <mark>DATAWAREHOUSE</mark></b></h2>
+        <h3 class="text-center"><b>DOWNLOAD IMPORTANT STUFF FROM</b></h3>
+        <h3 class="text-center"><b>TEACHER'S REPOSITORY</b></h3>
+        <br /><br /> </div>
+
+    <div id="all" class="container">
+
+        <ul id="filters" class="option-set list-inline" data-option-key="filter" style="height:200px">
+            <li class="type-work"></li>
+            <li ><a href="#filter" data-option-value="*" class="selected" style="font-weight:bold">All Teachers        </a></li>
+            <li><a href="#filter" data-option-value=".alphabetA" style="font-weight:bold; color:white">A</a></li>
+            <li><a href="#filter" data-option-value=".alphabetB" style="font-weight:bold; color:white">B</a></li>
+            <li><a href="#filter" data-option-value=".alphabetC" style="font-weight:bold; color:white">C</a></li>
+            <li><a href="#filter" data-option-value=".alphabetD" style="font-weight:bold; color:white">D</a></li>
+            <li><a href="#filter" data-option-value=".alphabetE" style="font-weight:bold; color:white">E</a></li>
+            <li><a href="#filter" data-option-value=".alphabetF" style="font-weight:bold; color:white">F</a></li>
+            <li><a href="#filter" data-option-value=".alphabetG" style="font-weight:bold; color:white">G</a></li>
+            <li><a href="#filter" data-option-value=".alphabetH" style="font-weight:bold; color:white">H</a></li>
+            <li><a href="#filter" data-option-value=".alphabetI" style="font-weight:bold; color:white">I</a></li>
+            <li><a href="#filter" data-option-value=".alphabetJ" style="font-weight:bold; color:white">J</a></li>
+            <li><a href="#filter" data-option-value=".alphabetK" style="font-weight:bold; color:white">K</a></li>
+            <li><a href="#filter" data-option-value=".alphabetL" style="font-weight:bold; color:white">L</a></li>
+            <li><a href="#filter" data-option-value=".alphabetM" style="font-weight:bold; color:white">M</a></li>
+            <li><a href="#filter" data-option-value=".alphabetN" style="font-weight:bold; color:white">N</a></li>
+            <li><a href="#filter" data-option-value=".alphabetO" style="font-weight:bold; color:white">O</a></li>
+            <li><a href="#filter" data-option-value=".alphabetP" style="font-weight:bold; color:white">P</a></li>
+            <li><a href="#filter" data-option-value=".alphabetQ" style="font-weight:bold; color:white">Q</a></li>
+            <li><a href="#filter" data-option-value=".alphabetR" style="font-weight:bold; color:white">R</a></li>
+            <li><a data-toggle="collapse" data-target="#demo" style="font-weight:bold; color:white">S</a></li>
+
+            <li><a href="#filter" data-option-value=".alphabetT" style="font-weight:bold; color:white">T</a></li>
+            <li><a href="#filter" data-option-value=".alphabetU" style="font-weight:bold; color:white">U</a></li>
+            <li><a href="#filter" data-option-value=".alphabetV" style="font-weight:bold; color:white">V</a></li>
+            <li><a href="#filter" data-option-value=".alphabetW" style="font-weight:bold; color:white">W</a></li>
+            <li><a href="#filter" data-option-value=".alphabetX" style="font-weight:bold; color:white">X</a></li>
+            <li><a href="#filter" data-option-value=".alphabetY" style="font-weight:bold; color:white">Y</a></li>
+            <li><a href="#filter" data-option-value=".alphabetZ" style="font-weight:bold; color:white">Z</a></li>
+        </ul>
+        <div id="demo" class="collapse">
+            <div class="row"></div>
+            <div class="col-sm-4">
+                <img id="photo" src="Images/saad.jpg" class="img-circle" alt="image" width="200" height="170">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <br /><br />
+
+        <div id="contact" style=" height: 300px">
+            <div class="container text-center">
+                <h3><b>CONTACT US</b></h3>
+                <div class="row" style="font-family:Arial">
+                    <div class="col-sm-4">
+                        <h3>Send Us A Message</h3>
+                        <h4>bcsf12a037@pucit.edu.pk</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Call Us</h3>
+                        <h4>111-923-923-ext-113</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>We Are Social</h3>
+                        <a href="#"><span id="en" class="glyphicon glyphicon-envelope"></span></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <br />
+
+        <footer class="container-fluid text-center">
+            <a href="#" title="To Top">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a>
+            <h6>Created By: <a href="http://www.google.com">BCSF12A037</a></h6>
+        </footer>
+        <script src="Scripts/jquery-2.1.4.min.js"></script>
+        <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
